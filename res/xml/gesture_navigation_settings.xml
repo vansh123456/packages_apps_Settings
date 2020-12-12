@@ -51,5 +51,13 @@
         android:selectable="false"
         settings:searchable="false"
         settings:allowDividerAbove="true"/>
+
+    <com.yasp.settings.preferences.SecureSettingSwitchPreference
+        android:key="show_back_arrow_gesture"
+        android:title="@string/back_gesture_arrow_message"
+        android:summary="@string/back_gesture_arrow_summary"
+        android:defaultValue="true" />
+
+
 </PreferenceScreen>
 
